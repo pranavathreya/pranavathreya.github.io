@@ -1,3 +1,6 @@
 theme: jekyll-theme-minimal
 title: Pranav Athreya's homepage
-<script src="https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2Fpranavathreya%2Frobotics%2Fblob%2Fmain%2Fball_detection.py&style=default&type=code&showBorder=on&showLineNumbers=on&showFileMeta=on&showFullPath=on&showCopy=on"></script>
+```python
+def hello_world():
+    print("Hello, World!")
+```
