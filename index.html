@@ -1,0 +1,161 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Engineering Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Your Name</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Your Name</h1>
+            <h2>Engineering Portfolio</h2>
+            <p>Showcasing innovative engineering solutions and projects</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm [Your Name], an engineer specializing in [your specialties]. I'm passionate about creating solutions that [what you're passionate about].</p>
+                    <p>With experience in [relevant experience], I bring a unique perspective to engineering challenges.</p>
+                    <a href="#" class="resume-button">Download Resume</a>
+                </div>
+                <div class="about-image">
+                    <!-- Replace with your own image -->
+                    <img src="img/profile.jpg" alt="Your Name">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Engineering Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-video">
+                        <!-- Video embed code - YouTube example -->
+                        <iframe width="100%" height="200" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        
+                        <!-- Alternative: Self-hosted video -->
+                        <!--
+                        <video width="100%" controls>
+                            <source src="videos/project1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        -->
+                    </div>
+                    <h3>Project Title 1</h3>
+                    <p>Brief description of the project, technologies used, and your role.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Details</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-video">
+                        <!-- Video embed code - YouTube example -->
+                        <iframe width="100%" height="200" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>Project Title 2</h3>
+                    <p>Brief description of the project, technologies used, and your role.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Details</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+                
+                <!-- Add more project cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills & Technologies</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Engineering</h3>
+                    <ul>
+                        <li>Skill 1</li>
+                        <li>Skill 2</li>
+                        <li>Skill 3</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Software</h3>
+                    <ul>
+                        <li>Tool 1</li>
+                        <li>Tool 2</li>
+                        <li>Tool 3</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Design</h3>
+                    <ul>
+                        <li>Approach 1</li>
+                        <li>Approach 2</li>
+                        <li>Approach 3</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>Feel free to reach out for collaboration opportunities or just to say hello!</p>
+                    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+                <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
