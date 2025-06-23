@@ -30,7 +30,7 @@ body {
 
 /* Navigation */
 header {
-    background-image: url('../img/nav_bkgnd.jpg');
+    background-image: url('img/nav_bkgnd.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
